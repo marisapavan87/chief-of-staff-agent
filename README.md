@@ -48,7 +48,7 @@ Set `COS_SIGNATURE="Your Name\n(555) 555-5555"` to sign drafts with your own det
 
 ## How I built it
 
-I'm an operator, not an engineer. I built this by directing a coding agent (Claude): I described the problem the way I'd brief a new hire, set the rules for follow-up timing and tone, reviewed every output, and pushed back where it got the logic wrong. One example: an early version sent "just a second nudge" to people I'd never followed up with. The test suite now checks for that.
+I'm an operator, not an engineer. I built this by directing a coding agent (Claude): I described the problem the way I'd brief a new hire, set the rules for follow-up timing and tone, reviewed every output, and reviewed the logic before shipping. One example: an early version sent "just a second nudge" to people I'd never followed up with. The test suite now checks for that.
 
 It's the same thing I did for 14 years running my own business. Find where work stalls, build a system so it doesn't, and hand it off so it runs without me.
 
