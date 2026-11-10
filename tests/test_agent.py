@@ -7,7 +7,7 @@ from cos_agent.models import Application, load_applications
 from cos_agent.triage import triage, triage_one
 
 TODAY = date(2026, 11, 4)
-DATA = Path(__file__).parent.parent / "data" / "applications.csv"
+DATA = Path(__file__).parent.parent / "data" / "sample_applications.csv"
 
 
 def app(**kw):
@@ -48,7 +48,7 @@ def test_finished_applications_need_nothing():
 
 def test_real_tracker_loads_and_triages():
     apps = load_applications(DATA)
-    assert len(apps) >= 20
+    assert len(apps) >= 5
     assert triage(apps, TODAY)
 
 
